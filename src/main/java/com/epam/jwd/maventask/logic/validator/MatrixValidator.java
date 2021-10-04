@@ -1,4 +1,4 @@
-package com.epam.jwd.maventask.validator;
+package com.epam.jwd.maventask.logic.validator;
 
 public class MatrixValidator {
     private static final String OK = "OK";

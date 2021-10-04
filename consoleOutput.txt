@@ -15,12 +15,12 @@ C:\Users\ofeitus\IdeaProjects\MatrixConstructor>mvn compile
 [INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ MatrixConstructor ---
 [INFO] Changes detected - recompiling the module!
 [WARNING] File encoding has not been set, using platform encoding Cp1251, i.e. build is platform dependent!
-[INFO] Compiling 10 source files to C:\Users\ofeitus\IdeaProjects\MatrixConstructor\target\classes
+[INFO] Compiling 11 source files to C:\Users\ofeitus\IdeaProjects\MatrixConstructor\target\classes
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  2.548 s
-[INFO] Finished at: 2021-10-04T14:47:34+03:00
+[INFO] Total time:  4.453 s
+[INFO] Finished at: 2021-10-05T02:16:09+03:00
 [INFO] ------------------------------------------------------------------------
 
 C:\Users\ofeitus\IdeaProjects\MatrixConstructor>mvn exec:java -Dexec.mainClass="com.epam.jwd.maventask.runner.Main"
@@ -60,8 +60,8 @@ Matrix filled with spiral pattern
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  1.350 s
-[INFO] Finished at: 2021-10-04T14:47:46+03:00
+[INFO] Total time:  2.563 s
+[INFO] Finished at: 2021-10-05T02:16:17+03:00
 [INFO] ------------------------------------------------------------------------
 
 C:\Users\ofeitus\IdeaProjects\MatrixConstructor>mvn clean test
@@ -81,7 +81,7 @@ C:\Users\ofeitus\IdeaProjects\MatrixConstructor>mvn clean test
 [INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ MatrixConstructor ---
 [INFO] Changes detected - recompiling the module!
 [WARNING] File encoding has not been set, using platform encoding Cp1251, i.e. build is platform dependent!
-[INFO] Compiling 10 source files to C:\Users\ofeitus\IdeaProjects\MatrixConstructor\target\classes
+[INFO] Compiling 11 source files to C:\Users\ofeitus\IdeaProjects\MatrixConstructor\target\classes
 [INFO]
 [INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ MatrixConstructor ---
 [WARNING] Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
@@ -90,25 +90,27 @@ C:\Users\ofeitus\IdeaProjects\MatrixConstructor>mvn clean test
 [INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ MatrixConstructor ---
 [INFO] Changes detected - recompiling the module!
 [WARNING] File encoding has not been set, using platform encoding Cp1251, i.e. build is platform dependent!
-[INFO] Compiling 1 source file to C:\Users\ofeitus\IdeaProjects\MatrixConstructor\target\test-classes
+[INFO] Compiling 2 source files to C:\Users\ofeitus\IdeaProjects\MatrixConstructor\target\test-classes
 [INFO]
 [INFO] --- maven-surefire-plugin:2.22.1:test (default-test) @ MatrixConstructor ---
 [INFO]
 [INFO] -------------------------------------------------------
 [INFO]  T E S T S
 [INFO] -------------------------------------------------------
-[INFO] Running com.epam.jwd.maventask.MatrixTest
-[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.036 s - in com.epam.jwd.maventask.MatrixTest
+[INFO] Running com.epam.jwd.maventask.MatrixPatternsTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.061 s - in com.epam.jwd.maventask.MatrixPatternsTest
+[INFO] Running com.epam.jwd.maventask.MatrixValidatorTests
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s - in com.epam.jwd.maventask.MatrixValidatorTests
 [INFO]
 [INFO] Results:
 [INFO]
-[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0
+[INFO] Tests run: 8, Failures: 0, Errors: 0, Skipped: 0
 [INFO]
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  5.133 s
-[INFO] Finished at: 2021-10-04T14:48:03+03:00
+[INFO] Total time:  9.008 s
+[INFO] Finished at: 2021-10-05T02:16:36+03:00
 [INFO] ------------------------------------------------------------------------
 
 C:\Users\ofeitus\IdeaProjects\MatrixConstructor>mvn package
@@ -137,12 +139,14 @@ C:\Users\ofeitus\IdeaProjects\MatrixConstructor>mvn package
 [INFO] -------------------------------------------------------
 [INFO]  T E S T S
 [INFO] -------------------------------------------------------
-[INFO] Running com.epam.jwd.maventask.MatrixTest
-[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.037 s - in com.epam.jwd.maventask.MatrixTest
+[INFO] Running com.epam.jwd.maventask.MatrixPatternsTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.051 s - in com.epam.jwd.maventask.MatrixPatternsTest
+[INFO] Running com.epam.jwd.maventask.MatrixValidatorTests
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.epam.jwd.maventask.MatrixValidatorTests
 [INFO]
 [INFO] Results:
 [INFO]
-[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0
+[INFO] Tests run: 8, Failures: 0, Errors: 0, Skipped: 0
 [INFO]
 [INFO]
 [INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ MatrixConstructor ---
@@ -150,6 +154,6 @@ C:\Users\ofeitus\IdeaProjects\MatrixConstructor>mvn package
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  3.677 s
-[INFO] Finished at: 2021-10-04T14:48:22+03:00
+[INFO] Total time:  6.984 s
+[INFO] Finished at: 2021-10-05T02:17:05+03:00
 [INFO] ------------------------------------------------------------------------

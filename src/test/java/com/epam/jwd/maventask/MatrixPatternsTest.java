@@ -6,25 +6,27 @@ import com.epam.jwd.maventask.exeption.MatrixSizeException;
 import com.epam.jwd.maventask.logic.filler.Pattern;
 import com.epam.jwd.maventask.logic.filler.impl.PatternMatrixFiller;
 import com.epam.jwd.maventask.logic.filler.impl.SolidMatrixFiller;
+import com.epam.jwd.maventask.logic.validator.MatrixValidator;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import java.util.Arrays;
 
-public class MatrixTest {
+public class MatrixPatternsTest {
     private final MatrixBuilder matrixBuilder = new MatrixBuilder();
 
     @Test
     void testSolidMatrix() {
         // arrange
         try {
-            matrixBuilder.setColumns(1);
-            matrixBuilder.setRows(1);
+            matrixBuilder.setColumns(2);
+            matrixBuilder.setRows(2);
         } catch (MatrixSizeException e) {
             System.out.println(e.getMessage());
         }
         matrixBuilder.setFiller(new SolidMatrixFiller(13));
         int[][] testMatrix = new int[][]
-                {{13}};
+                {{13, 13},
+                 {13, 13}};
 
         // act
         Matrix patternMatrix = matrixBuilder.build();
